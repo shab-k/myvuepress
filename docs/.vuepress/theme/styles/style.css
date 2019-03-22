@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    font-size: 1rem;
+  }
+  body {
+    background-color: #fff;
+    font-family: "Nunito", sans-serif;
+  }
+  /* ----------------- Media Queries ----------------- */
+  
+  /* ------ Mobile Phones -------- */
+  @media only screen and (max-width: 600px) {
+    h4 {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    h5{
+      font-size: 1.5rem;
+    }
+   a.title-link:hover {
+    color:#cf290c;
+  }
+  footer {
+    margin-bottom: 0;
+  }
+  }
+  /* ------- Tablets --------- */
+  @media only screen and (min-width: 601px) and (max-width: 992px){
+  
+    h4 {
+      font-size: 1.6rem;
+      font-weight: bold;
+    }
+  }
+  /* --- Laptops ---*/
+  @media only screen and (min-width: 993px) {
+    h4 {
+      font-size: 2rem;
+    }
+   
+  }
