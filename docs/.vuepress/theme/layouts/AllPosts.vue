@@ -79,6 +79,7 @@ span {
 }
 .card-action a {
   font-weight:200;
+  font-weight: bold;
 }
 h4{
   font-weight: 600;
