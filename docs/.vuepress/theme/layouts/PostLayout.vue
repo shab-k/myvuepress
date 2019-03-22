@@ -10,7 +10,7 @@
               <p class="date">{{ formateDate($page.frontmatter.date) }}</p>
               <article>{{ $page.text }}</article>
                <Content/>
-               <a href="http://localhost:8080/blog/"><i class="fas fa-arrow-left"></i> Back to posts</a>
+               <a href="https://shab-k.github.io/myvuepress/blog/"><i class="fas fa-arrow-left"></i> Back to posts</a>
             </div>
           </div>
         </div>
