@@ -6,10 +6,6 @@
     "docs:build": "vuepress build docs",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shab-k/my-vuepress-blog.git"
-  },
   "author": "Shabnam-k",
   "license": "MIT",
   "homepage": "https://shab-k.github.io/myvuepress",
