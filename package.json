@@ -4,7 +4,8 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy": "gh-pages -d dist"
+    "base": "/myvuepress/",
+    "deploy": "gh-pages -d docs"
   },
   "author": "Shabnam-k",
   "license": "MIT",
